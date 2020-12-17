@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+.content-table{
+	border-collapse:collapse;
+	margin:25px 0;
+	font-size:0.9em;
+	min-width:400px;
+	border-radius:5px 5px 0 0;
+	overflow:hidden;
+	text-align:center;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	background: transparent; 
+}
+.content-table thead tr{
+	background-color:#ffffb0;
+	color:#000000;
+	text-align:center;
+	font-weight:bold;
+}
+.content-table th,.content-table td{
+	padding:12px 15px;
+	
+}
+.content-table tbody tr{
+	border-bottom:1px solid #c0c0c0;
+}

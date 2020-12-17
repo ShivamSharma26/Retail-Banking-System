@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+p{
+	height:30%;
+}
+.footer{
+	background: #303036;
+	color: #d3d3d3;
+	height: 270px;
+	position: relative;
+	
+}
+table{
+	text-align:center;
+}
+
+.footer .footer-content{
+	display: flex;
+	height: 150px;
+	border-top: 6px solid rgb(255, 255, 0);
+	padding-left:100px;
+}
+
+.footer .footer-content .footer-section{
+	
+	/*border: 1px solid white;*/
+	
+	float:left;
+	
+}
+
+.footer .footer-content h5{
+	color: rgb(255, 255, 0);
+
+}
+
+.about{
+	width:40%;
+	text-align:justify;
+	float:left;
+	padding-right:90px
+}
+
+.service{
+	width:25%;
+	text-align:justify;
+	float:center;
+	/*padding-left:50px*/
+}
+
+.contact{
+	width:35%;
+	text-align:justify;
+	float:right;
+	padding-right:100px;
+}
+.footer .footer-bottom{
+	
+	background: #343a40;
+	color: #686868;
+	height: 30px;
+	position: absolute;
+	bottom: 0px;
+	display: flex;
+	padding-left: 100px;
+	width:100%;
+	
+}
+
+#info{
+	text-align: justify;
+}
+
+.footer .footer-bottom .footer-bottom-section{
+	
+	color: white;
+	/*border: 1px solid white;*/
+}
+
+.footer .footer-bottom  span{
+	color: rgb(255, 255, 0);
+}
+
+
+.left{
+	width: 65%;
+	
+}
+
+.right{
+	width:27.5%;
+}
+
+.fa{
+	color:white;
+}
